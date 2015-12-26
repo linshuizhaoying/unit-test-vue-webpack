@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>临水照影单元测试 - 项目描述</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/overwrite.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/c3.css"/>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <span class="glyphicon glyphicon-list-alt navbar-brand"/>
+        </div>
+        <h3 class="navbar-text">临水照影单元测试</h3>
+        <h4 class="nav navbar-nav navbar-text ow-sub-title">项目描述</h4>
+      </div>
+    </nav>
+    <div class="container-fluid position-offset">
+      <div class="row">
+        <div class="col-xs-2 sidebar-offcanvas" id="sidebar" role="navigation">
+          <ul class="nav nav-sidebar">
+            <li class="active top">
+              <a href="#">Overview</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-10 main">
+          <div id="chart"></div>
+          <ul class="nav nav-tabs" id="myTab">
+            
+            <li class="active">
+              
+              <a href="#Chrome" data-toggle="tab">Chrome 49.0.2593 (Mac OS X 10.10.5)</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            
+            <div class="tab-pane fade" id="Chrome">
+              <table class="table table-bordered table-hover">
+                <caption class="">Test Results running in Chrome 49.0.2593 (Mac OS X 10.10.5) Timestamp: 2015-12-26 16:53:35</caption>
+                <tr>
+                  <td colspan="3">
+                    2 tests / 
+                    0 errors / 
+                    0 failures / 
+                    0 skipped / 
+                    runtime: 0.004s
+                  </td>
+                </tr>
+                <tr class="header">
+                  <td>Status</td>
+                  <td>Spec</td>
+                  <td>Suite / Results</td>
+                </tr>
+                <tr class="success">
+                  <td>Passed in 0.004s</td>
+                  <td>正向测试,msg参数内容应该为linshi!</td>
+                  <td class="specs-def">
+                    <div class="">Vue单元测试</div>
+                  </td>
+                </tr>
+                <tr class="success">
+                  <td>Passed in 0s</td>
+                  <td>method 内部函数toggle正向测试</td>
+                  <td class="specs-def">
+                    <div class="">Vue单元测试</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="pull-right"/>
+    </footer>
+    <script src="assets/js/d3.js"></script>
+    <script src="assets/js/c3.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/tab.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
